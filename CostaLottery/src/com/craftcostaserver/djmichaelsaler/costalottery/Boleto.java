@@ -8,9 +8,8 @@ public class Boleto {
 	private int sorteo;
 	private ArrayList<Integer> apuesta;
 	
-	public Boleto (int sorteo, String player,ArrayList<Integer> apuesta){
+	public Boleto (int sorteo, ArrayList<Integer> apuesta){
 		this.sorteo=sorteo;
-		this.player=player;
 		this.apuesta=apuesta;
 	}
 	
